@@ -1,13 +1,120 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.body{
+    background-color: white;
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 300;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.highlight {
+    background-color: #80c0b5;
+}
+
+.navbar-style {
+    background-color: black!important;
+}
+
+.carty{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.cart-container{
+    float: right;
+}
+
+.fade-in-text {
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+    background-color: pink;
+    color: whitesmoke;
+    padding-bottom: 10pt;
+    padding-top: 15pt;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+.h4{
+    text-align: center;
+}
+.text-block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+    font-size: 26px;
+  }
+
+.btn-container{
+    background-color: none;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btns{
+  border-radius: 26px;
+  background-color: coral;
+  border: none;
+  color: whitesmoke;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+}
+.btns:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);  
+  color:azure;
+}
+.btn{
+    background-color: black;
+    color:azure;
+    border-radius: 18px;
+    font-size: 12px;
+}
+
+.border-bottom{
+    font-size: 16px;
+}
+
+.search{
+    border-radius: 18px;
+    float: right;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    justify-content: center;
+    display: flex;
+}
+ a {
+    color:black;
+    text-decoration: none;
+}
+a:link {
+    color: black;
+}
+a:hover {
+    color:black;
+}
+
+.intro{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.img-fluid1{
+    max-width: 100%;
+    height: auto;
 }
