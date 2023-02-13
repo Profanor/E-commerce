@@ -36,9 +36,11 @@
     0% { opacity: 0; }
     100% { opacity: 1; }
 }
+
 .h4{
     text-align: center;
 }
+
 .text-block {
     position: absolute;
     top: 50%;
@@ -118,7 +120,63 @@ img {
     width: 200px;
     height: auto;
 }
+
+.social-icons li {
+    display: inline-block;
+    padding-right: 10px;
+    width: 45px;
+}
+
 .bi-twitter {
+    color: white;
     width: 25px;
     height: 25px;
+}
+
+.bi-instagram {
+    color: white;
+    width: 25px;
+    height: 25px;
+}
+
+.bi-whatsapp {
+    color: white;
+    width: 25px;
+    height: 25px;
+}
+
+.bi-linkedin {
+    color: white;
+    width: 25px;
+    height: 25px;
+}
+
+h4 {
+    color: white;
+    padding-top: 15px;
+}
+.about {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#footer {
+    background-color: black;
+}
+
+.footer-links li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer-links li {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cpy {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+ul {
+    list-style-type: none;
 }

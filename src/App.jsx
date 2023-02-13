@@ -1,12 +1,14 @@
-import React, {Component} from "react";
+import React from "react";
 import NavBar from "./NavBar";
 import MainContent from "./MainContent";
- class App extends Component {
-    render() {
-        return<div>
+import Footer from "./Footer"
+  function App (){  
+        return(
+        <>
             <NavBar />
             <MainContent />
-            </div>
+            <Footer />
+            </>
+        )
     };
-}
 export default App
