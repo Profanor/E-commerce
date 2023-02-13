@@ -59,7 +59,7 @@ const MainContent = () => {
       <img src="img/bag2.jpg" class="d-block w-100" alt="bag7"/>
       <div class="carousel-caption d-none d-md-block">
         <h5>We are your go to for luxury Bags</h5>
-        <p>what are you waiting for?.</p>
+        <p>what are you waiting for?</p>
       </div>
     </div>
   </div>
@@ -101,64 +101,76 @@ const MainContent = () => {
 
   <div className="row row-pb-md">
     <div className="col-lg-3 mb-4 text-center">
-      <div className="product-entry border">
+      <div className="product-entry">
         <a href="#" className="prod-img">
           <img src="img/bag4.jpg" className="img-fluid" alt="bag4"/>
         </a>
         <div className="desc">
-          <h4>
-            <a href="#">Louis Vuitton</a>
+          <h4 className="title">
+            <a href="#">CHANEL</a>
           </h4>
           <span className="price">
             $639.00
           </span>
+          <span className="buy-now">
+            <a href="#">buy now</a>
+            </span>
         </div>
       </div>
     </div>
 
     <div className="col-lg-3 mb-4 text-center">
-      <div className="product-entry border">
+      <div className="product-entry">
         <a href="#" className="prod-img">
           <img src="img/bag5.jpg" className="img-fluid" alt="bag5"/>
         </a>
         <div className="desc">
-          <h4>
+          <h4 className="title">
             <a href="#">DOLCE</a>
           </h4>
           <span className="price">
             $760.00
+          </span>
+          <span className="buy-now">
+            <a href="#">buy now</a>
           </span>
         </div>
       </div>
     </div>
   
     <div className="col-lg-3 mb-4 text-center">
-      <div className="product-entry border">
+      <div className="product-entry">
         <a href="#" className="prod-img">
           <img src="img/bag6.jpg" className="img-fluid" alt="bag6"/>
         </a>
         <div className="desc">
-          <h4>
+          <h4 className="title">
             <a href="#">LV</a>
           </h4>
           <span className="price">
             $505.00
+          </span>
+          <span className="buy-now">
+            <a href="#">buy now</a>
           </span>
         </div>
       </div>
     </div>
      
     <div className="col-lg-3 mb-4 text-center">
-      <div className="product-entry border">
+      <div className="product-entry">
         <a href="#" className="prod-img">
           <img src="img/bag7.jpg" className="img-fluid" alt="bag7"/>
         </a>
         <div className="desc">
-          <h4>
+          <h4 className="title">
             <a href="#">FENDI</a>
           </h4>
           <span className="price">
             $245.00
+          </span>
+          <span className="buy-now">
+            <a href="#">buy now</a>
           </span>
         </div>
       </div>
